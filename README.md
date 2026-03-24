@@ -127,3 +127,9 @@ main() 每帧执行：
 ---
 
 ## 效果演示
+<div align="center">
+  <img gif=gif/v1.gif width="600">
+</div>
+<div align="center">
+  <img gif=gif/v2.gif width="600">
+</div>
