@@ -128,9 +128,6 @@ main() 每帧执行：
 
 ## 效果演示
 <div align="center">
-  <img src="gif/v1.gif" width="600">
-</div>
-
-<div align="center">
-  <img src="gif/v2.gif" width="600">
+  <img src="gif/v1.gif" width="400">
+  <img src="gif/v2.gif" width="400">
 </div>
