@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-=======
+
 # Work2
 本项目完成计算机图形学实验二
->>>>>>> 83cea6b1ff546fa9ac631474b11939993b08b80b
 # CG-Lab2 · MVP 变换实验
 
 ## 项目框架
@@ -125,17 +123,13 @@ main() 每帧执行：
 | `A` | 绕 Z 轴逆时针旋转（每帧 2°） |
 | `D` | 绕 Z 轴顺时针旋转（每帧 2°） |
 | `ESC` | 退出程序 |
-<<<<<<< HEAD
-=======
-| `ESC` | 退出程序 |
 
 ---
 
 ## 效果演示
 <div align="center">
-  <img gif=gif/v1.gif width="600">
+  <img src="gif/v1.gif" width="600">
 </div>
 <div align="center">
-  <img gif=gif/v2.gif width="600">
+  <img src="gif/v.gif" width="600">
 </div>
->>>>>>> 83cea6b1ff546fa9ac631474b11939993b08b80b
