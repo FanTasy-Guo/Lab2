@@ -7,8 +7,7 @@
 # CG-Lab2 · MVP 变换实验
 
 ## 项目框架
-
-\```
+```
 CG-Lab2/
 ├── src/
 │   └── Work2/
@@ -18,8 +17,7 @@ CG-Lab2/
 │       ├── test.py         # 单元测试
 │       └── __init__.py
 └── README.md
-\```
-
+```
 `config.py` 集中管理所有超参数（窗口尺寸、相机位置、视场角、近远截面等），修改参数只需改这一个文件。`physics.py` 包含全部矩阵推导逻辑，以 `@ti.func` 装饰，运行在 Taichi 编译器管辖的 GPU/CPU 并行环境中。`main.py` 负责初始化 Taichi、驱动每帧渲染循环、响应键盘输入。
 
 ---
@@ -64,7 +62,7 @@ $$t = \tan\!\left(\frac{fov}{2}\right)\cdot|n|,\quad b=-t,\quad r=aspect\cdot t,
 
 ## 代码逻辑
 
-\```
+```
 main() 每帧执行：
 │
 ├── 键盘事件检测
@@ -83,7 +81,7 @@ main() 每帧执行：
 │       └── NDC  →  屏幕坐标 [0, 1]
 │
 └── gui.line × 3 条边               →  绘制线框三角形
-\```
+```
 
 矩阵乘法顺序严格遵循右乘规则（列向量），变换从右向左依次执行：先 Model，再 View，最后 Projection。
 
