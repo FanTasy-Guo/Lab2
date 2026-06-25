@@ -41,7 +41,7 @@ $$\mathbf{v}_{clip} = M_{proj} \cdot M_{view} \cdot M_{model} \cdot \mathbf{v}_{
 
 **第二步** 正交投影矩阵，将长方体  $[l,r]\times[b,t]\times[f,n]$ 映射到  $[-1,1]^3$ 。
 
-视锥体边界由视场角推导，其中 $n=-z_{near}$ ，$f=-z_{far}$ 。
+视锥体边界由视场角推导，其中 $n=-z_{near}$ ， $f=-z_{far}$  。
 
 最终经**透视除法**  $(x,y,z,w)\div w$  得到 NDC 坐标，再映射到屏幕坐标 $[0,1]$ 。
 
@@ -88,7 +88,10 @@ main() 每帧执行：
 
 ## 效果演示
 <div align="center">
-  <img src="gif/v1.gif" width="400">
-  <img src="gif/v2.gif" width="400">
+  <img src="gif/v1.gif" width="600">
+</div>
+
+<div align="center">
+  <img src="gif/v2.gif" width="600">
 </div>
 
